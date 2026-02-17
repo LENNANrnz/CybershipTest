@@ -19,7 +19,7 @@ To run the project locally:
 ```bash
 npm install
 npm run dev
-
+```
 Upon running, the application will prompt for a JSON input. This JSON should describe the shipment request in a single line. Paste your JSON directly into the console when prompted.
 
 Example placeholder for JSON input (single line):
