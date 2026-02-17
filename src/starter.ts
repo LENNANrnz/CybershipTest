@@ -15,9 +15,10 @@ export async function starter(shippingService: ShippingService) {
   try {
     const parsedInput = JSON.parse(rawInput);
 
-    // Validate using Zod
+    console.log("\ validating schema:");
     const validatedRequest = RateRequestSchema.parse(parsedInput);
 
+    console.log("\ calling strategy:");
     const result = await shippingService.getRates(validatedRequest);
 
     console.log("\nRETURNED QUOTES:");

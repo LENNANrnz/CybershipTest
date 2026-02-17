@@ -7,6 +7,7 @@ export class ShippingService {
  constructor(private readonly carriers: Carrier[]) {}
 
   async getRates(request: RateRequest) {
+    console.log("\ finding strategies by carriers");
     const carrier = this.carriers.find(c => c.name === request.carrier);
 
     if (!carrier) {
