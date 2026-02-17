@@ -31,7 +31,7 @@ Example placeholder for JSON input (single line):
 ```
 Make sure your JSON includes all necessary fields like carrier, origin, destination, packages, and serviceLevel.
 
-Future Improvements
+## Future Improvements
 
 If more time were available, the following enhancements would be implemented:
 
