@@ -24,8 +24,11 @@ Upon running, the application will prompt for a JSON input. This JSON should des
 
 Example placeholder for JSON input (single line):
 
+```bash
+
 {"carrier":"UPS","origin":{"name":"Acme Corp","street1":"1000 Main Street","city":"New York","state":"NY","postalCode":"10001","countryCode":"US"},"destination":{"name":"John Doe","street1":"200 Elm Street","city":"Los Angeles","state":"CA","postalCode":"90001","countryCode":"US"},"packages":[{"dimensions":{"length":12,"width":8,"height":6,"unit":"IN"},"weight":{"value":5.5,"unit":"LB"}}],"serviceLevel":"EXPRESS"}
 
+```
 Make sure your JSON includes all necessary fields like carrier, origin, destination, packages, and serviceLevel.
 
 Future Improvements
